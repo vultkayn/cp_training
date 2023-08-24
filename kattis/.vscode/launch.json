@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  
+      {
+        "name": "C++ Launch Debug",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${fileDirname}",
+        "launchCompleteCommand": "exec-run",
+        "stopAtEntry": true,
+        "externalConsole": true,
+        "args": ["<", "test1.in"],
+        "setupCommands": [{"text": "source ${workspaceFolder}/.gdbinit"}],
+        "linux": {
+          "MIMode": "gdb",
+          "miDebuggerPath": "/usr/bin/gdb"
+        }
+    }
+  ]
+}

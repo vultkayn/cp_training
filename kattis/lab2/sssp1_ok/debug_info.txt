@@ -1,0 +1,2 @@
+[1mTesting ./test1.in[0m
+[1mTesting ./test2.in[0m

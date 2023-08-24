@@ -1,0 +1,8 @@
+[1mTesting ./test1.in[0m
+Traceback (most recent call last):
+  File "/home/vultkayn/Desktop/cours_2A/S2/algo/lab2/sssp2/./code.py", line 55, in <module>
+    arrivals = dijkstra(adjacency_list, n, s)
+  File "/home/vultkayn/Desktop/cours_2A/S2/algo/lab2/sssp2/./code.py", line 11, in dijkstra
+    arrivals[start][0] = adj_list[start][2]
+IndexError: list index out of range
+[1mTesting ./test2.in[0m
